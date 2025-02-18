@@ -44,9 +44,7 @@ date = df_historico["Date"].head(10).values.tolist()[::-1]
 st.set_page_config(layout="wide")
 
 st.title("📈 Dashboard Mercado Financeiro")
-st.write(
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
-)
+st.write("Acompanhe os principais indicadores do mercado em um só lugar")
 
 st.divider()
 
